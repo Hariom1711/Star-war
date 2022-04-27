@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(https://wallpaperaccess.com/full/1087325.jpg);
+  color: white;
+  background-color: #cccccc;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  display: block;
+  font-size: 4em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: yellow;
+}
+
+.container {
+  flex: 2 1 0%;
+  padding: 20px;
+  width: 50%;
+  margin-top: 70px;
+}
+
+.container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+.back {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 40px;
+  width: fit-content;
+  background: rgb(255, 235, 0);
+  clip-path: polygon(84% 0px, 100% 100%, 13% 100%, 0px 1%);
+}
+.details {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.details > div {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.details > div {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: rgb(45, 47, 48);
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+.details > div p {
+  margin: 0px;
+  text-transform: capitalize;
+  color: rgb(255, 235, 0);
+}
+
+.details > div b {
+  text-transform: uppercase;
+  font-weight: 600;
+}

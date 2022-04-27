@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Star Wars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://highaltitudeapparel.com/wp-content/uploads/2017/02/star-wars-logo-trans.png"/>
+    <link rel="stylesheet" href="./Css/index.css">
+  </head>
+  <body>
+
+    <div class="logo"><img src="https://highaltitudeapparel.com/wp-content/uploads/2017/02/star-wars-logo-trans.png" alt=""></div>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Search By Name" id="query" oninput="throttleFunction()" />
+        <div class="autocom-box" id="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon" onclick="storeData()"><img src="https://urban-piper-starwars.vercel.app/static/media/search.03bb87e7.svg" alt=""></i></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Javascript -->
+
+<script src="./JS/index.js"></script>
